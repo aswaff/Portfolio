@@ -16,7 +16,7 @@ export default function NavBar() {
     return (
     <div className="main-navbar">
         <Navbar bg="light" variant="light" className="insidenavbar">
-            <Navbar.Brand href="#home">Aswaff</Navbar.Brand>
+            <Navbar.Brand href="#home">ASWAFF</Navbar.Brand>
             <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
