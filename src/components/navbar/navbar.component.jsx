@@ -5,8 +5,11 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import { render } from 'react-dom';
+import { Link } from "gatsby"
 
 import './navbarcomponent.styles.css';
+
+import Github from "../../../assets/github.svg"
 
 
 export default function NavBar() {
@@ -20,9 +23,7 @@ export default function NavBar() {
             <Nav.Link href="#pricing">Pricing</Nav.Link>
             </Nav>
             <Form inline>
-            {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
-            <img src="..\..\static\GitHub-Mark.png" alt="github" />
-            <Button variant="outline-primary">Search</Button>
+            <Link to="https://github.com/aswaff"><Github className="githubicon"/></Link>
             </Form>
         </Navbar>
     </div>
