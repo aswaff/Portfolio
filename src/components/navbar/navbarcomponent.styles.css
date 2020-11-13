@@ -1,0 +1,15 @@
+.main-navbar {
+    background-color: #f8f9fa;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.insidenavbar {
+    flex: 0 0 100%;
+    padding: 10em;
+    
+}
+
+.mr-auto {
+    margin-left: 2em;
+
+}
