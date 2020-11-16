@@ -4,12 +4,14 @@ import NavBar from "../components/navbar/navbar.component";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.styles.css'
 import Title from "../components/Title/title";
+import Footer from '../components/footer/footer.component';
 
 export default function Home() {
   return (
   <div>
     <NavBar />
     <Title />
+    <Footer />
   </div>
   )
 }

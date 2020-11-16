@@ -29,9 +29,9 @@ export default function NavBar() {
                 <Nav.Link href="#pricing">About</Nav.Link>
                 </Nav>
                 <Form inline>
-                <Link to="https://github.com/aswaff"><Github className="githubicon"/></Link>
-                <Link to="http://mailto:someone@yoursite.com?subject=Mail from Our Site"><Email className="emailicon"/></Link>
-                <Link to="https://github.com/aswaff"><Linkedin className="linkedinicon"/></Link>
+                <a href="https://github.com/aswaff"><Github className="githubicon"/></a>
+                <a href="mailto:aswaffdev@gmail.com?subject=Mail from aswaff.dev"><Email className="emailicon"/></a>
+                <a href="https://www.linkedin.com/in/avery-swafford-999a2370/"><Linkedin className="linkedinicon"/></a>
                 </Form>
             </Navbar.Collapse>
         </Navbar>
