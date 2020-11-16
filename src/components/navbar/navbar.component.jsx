@@ -10,6 +10,8 @@ import { Link } from "gatsby"
 import './navbarcomponent.styles.css';
 
 import Github from "../../../assets/github.svg"
+import Email from '../../../assets/email.svg'
+import Linkedin from '../../../assets/linkedin.svg'
 
 
 export default function NavBar() {
@@ -28,9 +30,10 @@ export default function NavBar() {
                 </Nav>
                 <Form inline>
                 <Link to="https://github.com/aswaff"><Github className="githubicon"/></Link>
+                <Link to="http://mailto:someone@yoursite.com?subject=Mail from Our Site"><Email className="emailicon"/></Link>
+                <Link to="https://github.com/aswaff"><Linkedin className="linkedinicon"/></Link>
                 </Form>
             </Navbar.Collapse>
         </Navbar>
     </div>
     )};
-
