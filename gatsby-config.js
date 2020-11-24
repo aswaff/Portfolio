@@ -7,11 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    {  
-      resolve: "gatsby-source-dev",
-      options: {
-        username: 'aswaff',
-      }, 
+    {   
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
