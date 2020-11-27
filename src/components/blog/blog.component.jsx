@@ -36,7 +36,7 @@ export default function Blog() {
 
     let Article = () => {
         return(
-            <BlogTemplate articleId={Home()}/>
+            <BlogTemplate />
         )}
         
     
@@ -46,7 +46,7 @@ export default function Blog() {
                     
                     <Router basepath="/blog">
                         <Home path="/" />
-                        <Article path="/:userId" data={Home()}/>
+                        <Article path="/:userId" />
                     </Router>
         )
         
