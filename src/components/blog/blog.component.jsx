@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 // import { Link } from 'gatsby'
-import { Router, Link } from "@reach/router"
+import { Router } from "@reach/router"
+import { Link } from "gatsby"
 
-import blogTemplate from './blog.template';
+import BlogTemplate from './blog.template';
 import { render } from 'react-dom';
 
 const axios = require('axios');
@@ -23,34 +24,35 @@ export default function Blog() {
     }, []);
 
     
-    let articlePage = () => {
+    let Home = () => {
+        return( 
+        blogData.map(a =>
+            <div>{a.title}, <p>{a.description}</p>
+            {/* <Link to= {`/blog/${a.slug}`} >Link to article</Link> */}
+            <Link to={`/blog/${a.slug}`} >Link to article</Link></div>)
+            
+        )}
+
+
+    let Article = () => {
         return(
-            // <blogTemplate {...articleId} />
-            <p>test</p>
-        )} 
+            <BlogTemplate articleId={Home()}/>
+        )}
+        
     
 
      return (
-         
-            blogData.map(a => 
-                <div>{a.title}, <p>{a.description}</p>
-                {/* <Link to= {`/blog/${a.slug}`} >Link to article</Link> */}
-                <Link to= {`/blog/test`} >Link to article</Link>
-                    
+            
                     
                     <Router basepath="/blog">
-                        <articlePage 
-                            path="/test"
-                            articleId={a.id}
-                        />
+                        <Home path="/" />
+                        <Article path="/:userId" data={Home()}/>
                     </Router>
-
-                </div>
+        )
+        
             
-            )
             
-
-    )}
+    }
     // {`/blog/${a.slug}`}
 
 
