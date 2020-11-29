@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 
 import BlogTemplate from './blog.template';
 import { render } from 'react-dom';
+import './blog.component.styles.css'
 
 const axios = require('axios');
 
@@ -27,9 +28,12 @@ export default function Blog() {
     let Home = () => {
         return( 
         blogData.map(a =>
-            <div>{a.title}, <p>{a.description}</p>
-            {/* <Link to= {`/blog/${a.slug}`} >Link to article</Link> */}
-            <Link to={`/blog/${a.slug}`} >Link to article</Link></div>)
+            <div className="articlewrapper">
+                <Link to={`/blog/${a.slug}`} ><div className="articletitle">{a.title}</div></Link>
+                <p className="articledesc">{a.description}</p>
+           
+                
+            </div>)
             
         )}
 
