@@ -10,6 +10,12 @@
 
 }
 
+@media only screen and (max-width: 900px) {
+    .title-wrapper {
+      flex-direction: column;
+    }
+  }
+
 .title {
     font-size: 5.6em;
     font-weight: 700;

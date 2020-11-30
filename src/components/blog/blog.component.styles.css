@@ -1,7 +1,7 @@
 .articlewrapper {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-    margin: 1em;
+    margin: 1em 3em 1em 3em;
     padding: 1em;
     border-radius: 1em;
 }
@@ -9,8 +9,15 @@
 .articletitle {
     font-size: medium;
     font-weight: 700;
+    color: #495057;
 }
 
 .articledesc {
-    font-weight: lighter;
+    font-weight: normal;
+    color: #495057;
+}
+
+.article-details {
+    font-size: 1em;
+    color: black;
 }

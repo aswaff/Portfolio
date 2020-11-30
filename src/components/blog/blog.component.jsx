@@ -29,9 +29,12 @@ export default function Blog() {
         return( 
         blogData.map(a =>
             <div className="articlewrapper">
-                <Link to={`/blog/${a.slug}`} ><div className="articletitle">{a.title}</div></Link>
-                <p className="articledesc">{a.description}</p>
-           
+                <Link to={`/blog/${a.slug}`} ><div className="articletitle">{a.title}</div>
+                <div className="articledesc">{a.description}</div>
+                <div className="article-details">{a.readable_publish_date}&nbsp;|&nbsp;
+                                                🤍{a.public_reactions_count}&nbsp;
+                                                🗨 {a.comments_count}</div></Link>
+            
                 
             </div>)
             
