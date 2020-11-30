@@ -1,5 +1,5 @@
 .main-navbar {
-    background-color: #f8f9fa;
+    background-color: white;
     padding: 2rem 2rem 2rem 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -7,6 +7,10 @@
 .insidenavbar {
     flex: 0 0 100%;
     padding: 10em;
+    
+}
+.insidenavbar .bg-light {
+    background-color: white;
     
 }
 

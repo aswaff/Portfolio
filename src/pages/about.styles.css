@@ -1,0 +1,20 @@
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head-title {
+    margin: 1em;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5.6em;
+    font-weight: 700;
+}
+
+.paragraph-wrapper {
+    margin: 1em 10em 1em 10em;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}

@@ -36,13 +36,13 @@
 }
 
 .picofme {
-    max-width: 50em;
+    max-width: 40rem;
     margin-right: .3em;
     padding-right: 15px;
 
 }
 
 .picofme img {
-    max-width: inherit
+    max-width: 100%;
 }
 
