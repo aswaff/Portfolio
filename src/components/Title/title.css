@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     font-size: 50%;
+    max-width: 75vw;
     /* background-image: linear-gradient(135deg,#a0a0a0,#e4e4e4);
     -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%); */
 

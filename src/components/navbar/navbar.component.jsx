@@ -19,7 +19,7 @@ export default function NavBar() {
     <div className="main-navbar">
         <Navbar collapseOnSelect expand="lg" variant="light" className="insidenavbar">
             <div className="logo">
-                <Navbar.Brand href="/">ASWAFF</Navbar.Brand>
+                <Navbar.Brand href="/"><span className="dot-slash">./</span><span className="aswaff">ASWAFF</span></Navbar.Brand>
             </div>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

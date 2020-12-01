@@ -15,7 +15,17 @@
 }
 
 .logo {
-    margin-right: 2rem;
+    margin-right: 2.5rem;
+}
+
+.dot-slash {
+    color: darkblue;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.aswaff {
+    font-size: 1.5em;
 }
 
 .githubicon {

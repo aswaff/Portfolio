@@ -1,21 +1,36 @@
 .about-line {
     width: 20%;
     display: inline-block;
+    border-width: thick;
 }
 
 .tech-and-dev {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right: 20em;
-    margin-left: 1em;
+    margin: 7em auto 7em 10em;
+    max-width: 50vw;
+}
+
+.dot-slash-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font-size: 5.2em;
+    font-weight: 900;
+
+}
+
+.tech-passion {
+    max-width: 50vw;
+    margin: 5em 10em 7em auto;
+    text-align: right;
+
 }
 
 .head-title {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 5.6em;
     font-weight: 700;
 }
 
 .paragraph-wrapper {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
 }
