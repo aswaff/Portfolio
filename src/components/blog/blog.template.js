@@ -6,7 +6,7 @@ let name = "Test"
 console.log(name)
 const BlogTemplate = () =>  {
   const [articleData, setArticleData] = useState('Test');
-  const articleLink = window.location.href.slice(27)
+  const articleLink = window.location.pathname.slice(6)
   
   useEffect(() => {
     async function fetchArticleData() {
