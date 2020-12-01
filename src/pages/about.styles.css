@@ -1,20 +1,21 @@
-.about-wrapper {
-    display: flex;
-    flex-direction: column;
+.about-line {
+    width: 20%;
+    display: inline-block;
+}
+
+.tech-and-dev {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20em;
+    margin-left: 1em;
 }
 
 .head-title {
-    margin: 1em;
-    align-self: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 5.6em;
     font-weight: 700;
 }
 
 .paragraph-wrapper {
-    margin: 1em 10em 1em 10em;
-    align-self: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }

@@ -8,10 +8,10 @@ export default function Home() {
   return (
   <div>
     <NavBar />
-    <div className="about-wrapper">
+    <div className="tech-and-dev">
         <div className="head-title">
-            <h1>Technology, and development</h1>
-        </div>
+            <h1>Technology and development</h1>
+        </div><hr className="about-line"></hr>
         <div className="paragraph-wrapper">
             <span>  I've been in some sort of professional technology role for over 7 years.  From working at a help desk with computer repair and custom builds, 
                     all the way to consulting businesses with their networks and IT deployment, tech has always been a part of my life.  
