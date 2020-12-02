@@ -18,7 +18,7 @@ export default function Title(props) {
             </div>
             <div className="picofme">
             
-            <Img fixed={props.mePic.file.childImageSharp.fixed} style={{width: "100%"}} alt="mepic" />
+            <Img fixed={props.mePic.file.childImageSharp.fixed} alt="mepic" />
             </div>
             {console.log(props)}
         </div>
