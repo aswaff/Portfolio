@@ -1,8 +1,12 @@
 import React from 'react'
 import './title.css'
 import profilepic from '../../images/Profile pic.jpg'
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-export default function Title() {
+
+
+export default function Title(props) {
     return (
         <div className="title-wrapper">
             <div className="title">
@@ -13,11 +17,18 @@ export default function Title() {
                 </div>
             </div>
             <div className="picofme">
-                <img src={profilepic} alt="profilepic" />
+            
+            <Img fixed={props.mePic.file.childImageSharp.fixed} style={{width: "100%"}} alt="mepic" />
             </div>
-
+            {console.log(props)}
         </div>
 
     )
 
 }
+
+
+
+{/* <div className="picofme">
+<img src={profilepic} alt="profilepic" />
+</div> */}
