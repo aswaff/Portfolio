@@ -2,7 +2,6 @@
     margin: 0em 15em 0em 15em;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
 }
 
 @media only screen and (max-width: 900px) {

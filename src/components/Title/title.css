@@ -6,23 +6,14 @@
     align-items: center;
     font-size: 50%;
     max-width: 75vw;
-    /* background-image: linear-gradient(135deg,#a0a0a0,#e4e4e4);
-    -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%); */
 
 }
 
-@media only screen and (max-width: 900px) {
-    .title-wrapper {
-      flex-direction: column;
-    }
-  }
 
 .title {
     font-size: 5.6em;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.2;
     padding: 15px 15px 15px 15px;
     margin-left: .3em;
@@ -32,7 +23,6 @@
 .subtitle {
     padding: 3em 1px 15px 0;
     font-size: 0.5em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
 }
 
@@ -46,4 +36,19 @@
 .picofme img {
     max-width: 100%;
 }
+
+@media only screen and (max-width: 900px) {
+    .title-wrapper {
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .title {
+        text-align: center;
+    }
+    .picofme {
+        margin-right: 0;
+        padding-right: 0;
+    }
+  }
 

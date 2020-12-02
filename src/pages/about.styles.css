@@ -34,3 +34,17 @@
 .paragraph-wrapper {
     font-size: 1.1em;
 }
+
+@media only screen and (max-width: 900px) {
+    .tech-and-dev {
+        margin: 5em auto 5em auto;
+        text-align: center;
+        max-width: 75vw;
+    }
+
+    .tech-passion {
+        margin: 5em auto 5em auto;
+        text-align: center;
+        max-width: 75vw;
+    }
+  }
