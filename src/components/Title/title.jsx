@@ -1,7 +1,5 @@
 import React from 'react'
 import './title.css'
-import profilepic from '../../images/Profile pic.jpg'
-import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
@@ -26,9 +24,3 @@ export default function Title(props) {
     )
 
 }
-
-
-
-{/* <div className="picofme">
-<img src={profilepic} alt="profilepic" />
-</div> */}
