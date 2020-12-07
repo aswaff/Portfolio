@@ -1,6 +1,7 @@
 .project-page-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-wrapper {
