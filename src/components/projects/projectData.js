@@ -2,6 +2,23 @@
 
 const ProjectData = [
     {
+        "title": "ECommerce Store (Ongoing)",
+        "image": "/projects/ecommerce-store.jpg",
+        "description": `As part of the Zero-To-Mastery React course, we created this ecommerce project.
+                        It utilizes Redux, and firebase. It was a great code a long project to at least get familiar 
+                        with some of the tech that's used with React. (Hosted on Heroku, give time to load the app)
+                        `,
+        "github_link": "https://github.com/aswaff/Ecommerce-Store",
+        "live_link": "https://ecomme-store.herokuapp.com/",
+        "tech_used": {
+            "library": "React",
+            "tech": "Redux, React Router, Firebase, Stripe API",
+
+        },
+        
+    },
+
+    {
         "title": "Face Recognition",
         "image": "/projects/facerecognition.jpg",
         "description": `This is a web application using React, Node, and postgreSQL. It lets users register and sign in, 
@@ -13,6 +30,22 @@ const ProjectData = [
         "tech_used": {
             "library": "React",
             "tech": "Node, PostgreSQL, Heroku, Clarify API",
+
+        },
+        
+    },
+
+    {
+        "title": "Portfolio",
+        "image": "/projects/portfolio.jpg",
+        "description": `This is the site you are on now! I decided to create this myself so I could learn a little Gatsby. 
+                        Hosted on Netlify, it uses the dev.to component I made, and also Gatsby-Image.
+                        `,
+        "github_link": "https://github.com/aswaff/Portfolio",
+        "live_link": "https://aswaff.dev",
+        "tech_used": {
+            "library": "Gatsby",
+            "tech": "Gatsby-Image, GraphQL, Netlify",
 
         },
         
@@ -29,7 +62,7 @@ const ProjectData = [
         "live_link": "https://aswaff.dev/blog",
         "tech_used": {
             "library": "Javascript Component",
-            "tech": "Axios, , @reach/router",
+            "tech": "Axios, @reach/router",
 
         },
         
