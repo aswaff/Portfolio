@@ -50,3 +50,12 @@
     display: block;
     margin: auto;
 }
+
+.innerhtml pre {
+    color: white;
+    background-color: black;
+}
+
+.innerhtml svg {
+    content-visibility: hidden;
+}
