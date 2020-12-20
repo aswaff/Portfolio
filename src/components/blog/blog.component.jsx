@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-// import { Link } from 'gatsby'
 import { Router } from "@reach/router"
 import { Link } from "gatsby"
 
@@ -9,10 +8,8 @@ import './blog.component.styles.css'
 
 const axios = require('axios');
 
-// import blogData from './blog.data'
 
-
-// This loads the data for the 
+// This loads the data for the blog
 export default function Blog() {
     const [blogData, setBlogData] = useState(['']);
     
@@ -60,26 +57,3 @@ export default function Blog() {
             
             
     }
-    // {`/blog/${a.slug}`}
-
-
-
-
-
-// https://github.com/geocine/gatsby-starter-devto
-// https://github.com/geocine/gatsby-source-dev
-// https://medium.com/@christinavhastenrath/rest-apis-in-gatsby-at-runtime-89a89dd976d7
-
-// https://www.gatsbyjs.com/blog/2018-10-25-using-gatsby-without-graphql/
-// https://github.com/jlengstorf/gatsby-with-unstructured-data/blob/master/src/templates/pokemon.js
-// https://www.pluralsight.com/guides/return-html-elements-in-json
-
-// export default async function Blog() {
-//     const blogData = await fetch("https://dev.to/api/articles?username=aswaff");
-//     return (
-//             blogData.map(a => 
-//                 <h1>{a.title}, <p>{a.description}</p><Link to= {`/blog/${a.slug}`} >Link to article</Link> </h1>
-            
-//             )
-
-//     )}
